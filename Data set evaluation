@@ -1,13 +1,8 @@
-Data set Evaluation: A brief (250-500 words) that evaluates a data set with respect to one of the FAIR principles, 
-and best practices for data publishing more generally. In the write-up, you might reflect on the challenges that 
-a user of the data set might encounter, or suggest changes to the data set's documentation or metadata with a view 
-towards enhancing its reusability for future users.
+Data set Evaluation: A brief (250-500 words) that evaluates a data set with respect to one of the FAIR principles, and best practices for data publishing more generally. In the write-up, you might reflect on the challenges that a user of the data set might encounter, or suggest changes to the data set's documentation or metadata with a view towards enhancing its reusability for future users.
 
-Findability, Accessibility, Interoperability, and Reusability (FAIR) principles describe best practices on how to 
-manage research data. These principles reflect a shift in values among researchers from a highly protective and 
-competetive system to a more collaborative and supportive system. We aim to share data to improve science with 
-respect to rigor and reproducibility, but more importantly, to drive discovery.
+The data set used in this repository is a .csv file only accessible to members of the lab which produced it. The data are not accompanied by a README to describe the cryptic row and column names. This presents a significant challenge. These data are only usable if the row names are described by the Principal Investigator and the column names are identified by the program that produced the data set (CellProfiler). This .csv file is formatted in a very usable way for reading into any script, thus is interoperable.
 
-The data set used in this repository is only accessible to members of the lab which produced it and not findable 
-by any other potential users. The data are not accompanied by a README to describe the cryptic row and column names.
-This .csv file is formatted in a very usable way for reading into any script, thus is interoperable.
+While I have been able to utilize this data set beyond the scope of the original intent, access is limited. To enhance the useability of this data set our lab could create a README that details how this data was gleaned, what the row names mean, a link to the CellProfiler documentation that describes the column names, and an understanding of the units of measure where appropriate. Enhancing even further the usability could be achieved by creating links to the original raw images and the CellPRofiler pipeline as well as any published papers on this data set. Freely sharing this data set on a public repository would allow for even greater reusability.
+
+This and other aspects of data management are being addressed by our lab through revision of current policies and implementation of new tools like GitHub. As a PhD student my training includes data management strategies developed by researchers with an interest in increasing rigor and reproducibility, and fostering sharing, efficiency, transparency, collaboration, and scientific research. These practices build trust among researchers as well as public trust in science.
+
